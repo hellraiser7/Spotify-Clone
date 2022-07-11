@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation-bar">
+        <img src="/img/logo.png" alt="">
+        <h3>Spotify</h3>
+        <a href="#Home" id="home">Home</a>
+        <a href="#About" id="about">About</a>
+    </div>
+    <div id="overlay">
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <div class="overlay-content">
+            <span> 
+                Welcome to my first real website created using HTML, CSS and Javascript. This is a spotify clone. 
+                I've curated a list of 16 songs from various genres of music, namely
+                60's Blues/Pop, 70's Classic Rock, 90's Grunge (my favourite &#128513;), 
+                90's BritPop, 2000's Post-Grunge/nu-metal and Punk Rock. It wasn't easy to dumb my favourites down to 16, trust me.
+                So I would like to share the gift of beautiful music with you, wrapped in the form of a simple music player &#128512;
+                 
+                <span> Let me know your thoughts and suggestions at <a class="email"> mayursonowal1997@gmail.com. </a> Enjoy! &#129304;</span>                
+                
+            </span>
+        </div>
+    </div>
+    <div class="song-container">
+        <h1> My favourites </h1>
+        <div class="song-columns">
+            <div class="songs-list">
+                <!-- Song 1 -->
+                <div class="song">
+                    <img src="img/mayur-1.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>Linkin Park - Burning In The Skies </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="1"></i></span>
+                    </div>
+                </div>
+    
+                <!-- Song 2 -->
+                <div class="song">
+                    <img src="img/mayur-2.jpg" alt="song-2">
+                    <div class="title" id="title">
+                        <span> Nirvana - On A Plain </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="2"></i></span>
+                    </div>
+                </div>
+    
+                <!-- Song 3 -->
+                <div class="song">
+                    <img src="img/mayur-3.jpg" alt="song-3">
+                    <div class="title" id="title">
+                        <span>Led Zeppelin - Kashmir </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="3"></i></span>
+                    </div>
+                </div>
+    
+                <!-- Song 4 -->
+                <div class="song">
+                    <img src="img/mayur-4.jpg" alt="song-4">
+                    <div class="title" id="title">
+                        <span> The Beatles - Strawberry Fields Forever </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="4"></i></span>
+                    </div>
+                </div>
+                
+                <!-- Song 5 -->
+                <div class="song">
+                    <img src="img/mayur-5.jpg" alt="song-5">
+                    <div class="title" id="title">
+                        <span>Oasis - Don't Look Back In Anger </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song"  id="5"></i></span>
+                    </div>
+                </div>
+    
+                <!-- Song 6 -->
+                <div class="song">
+                    <img src="img/mayur-6.jpg" alt="song-6">
+                    <div class="title" id="title">
+                        <span>Audioslave - Show Me How To Live </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="6"></i></span>
+                    </div>
+                </div>
+    
+                <!-- Song 7 -->
+                <div class="song">
+                    <img src="img/mayur-7.jpg" alt="song-7">
+                    <div class="title" id="title">
+                        <span> Eminem - Rap God </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="7"></i></span>
+                    </div>
+                </div>
+    
+                <!-- Song 8 -->
+                <div class="song">
+                    <img src="img/mayur-8.jpg" alt="song-8">
+                    <div class="title" id="title">
+                        <span>Gorillaz - Saturnz Barz </span>
+                    </div>
+                    <div class="song-icons">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="8"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div id="column-2">
+                <!-- Song 9 -->
+                <div class="song">
+                    <img src="img/mayur-9.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>Red Hot Chilli Peppers - Under The Bridge </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="9"></i></span>
+                    </div>
+                </div>
+
+                <!-- Song 10 -->
+                <div class="song">
+                    <img src="img/mayur-10.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>Smashing Pumpkins - Tonight Tonight </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="10"></i></span>
+                    </div>
+                </div>
+
+                <!-- Song 11 -->
+                <div class="song">
+                    <img src="img/mayur-11.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>Blink 182 - I Miss You </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="11"></i></span>
+                    </div>
+                </div>
+
+                <!-- Song 12 -->
+                <div class="song">
+                    <img src="img/mayur-12.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>Queen - Under Pressure </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="12"></i></span>
+                    </div>
+                </div>
+
+                <!-- Song 13 -->
+                <div class="song">
+                    <img src="img/mayur-13.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>Metallica - For Whom The Bells Toll </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="13"></i></span>
+                    </div>
+                </div>
+
+                <!-- Song 14 -->
+                <div class="song">
+                    <img src="img/mayur-14.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>Foo Fighters - Everlong </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="14"></i></span>
+                    </div>
+                </div>
+
+                <!-- Song 15 -->
+                <div class="song">
+                    <img src="img/mayur-15.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span>AC/DC - Thunderstruck </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="15"></i></span>
+                    </div>
+                </div>
+
+                <!-- Song 16 -->
+                <div class="song">
+                    <img src="img/mayur-16.jpg" alt="song-1">
+                    <div class="title" id="title">
+                        <span> Soundgarden - Spoonman </span>
+                    </div>
+                    <div class="song-icons" id="song-icons-column-2">
+                        <span><i class="fa-solid fa-2x fa-play current-song" id="16"></i></span>
+                    </div>
+                </div>
+
+            </div>   
+        </div>
+        
+    </div>
+    <!-- Bottom music player -->
+    <div class="bottom-song">
+        <input type="range" name="range" id="progress-bar" value="0" min="0" max="100">
+        <div class="time">
+            <span id="current-time"> 0:00</span>
+            <span id="duration">5:31 </span>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+            <i class="fa-solid fa-2x fa-play" id="master-play"></i>
+            <i class="fa-solid fa-2x fa-forward" id="next"></i>
+        </div>
+        <div class="song-info">
+            <span id="bottom-title"> Hello its me Mario </span>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/e7419329b2.js" crossorigin="anonymous"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

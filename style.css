@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bree+Serif&family=Libre+Franklin&family=Oxygen&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1DB954;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    color: #F5E4DE;
+    font-size: 28px;
+    width: 90px;
+    float: left;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    margin: 0 39%;
+    color: #F5E4DE;
+
+}
+.song-container {
+    background-color: #191a18;
+    min-height: 80vh;
+    width: 75%;
+    margin: 15px auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 20px 5px rgba(0,0,0,0.3);
+}
+
+.song {
+    background-color: rgb(54, 54, 51);
+    color: white;
+    display: flex;
+    margin: 12px 20px;
+    height: 57px;
+    width: 85%;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 15px 20px 5px rgba(0, 0, 0, 0.139);
+}
+
+.song img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 18px;
+    position: relative;
+}
+
+.songs-list {
+    margin-top: 10px;
+    width: 48%;
+}
+
+#title {
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 4vh;
+    font-family: 'Alegreya', serif;
+    color: #F5E4DE;
+}
+
+.song-icons {
+    min-height: 50px;
+    padding: 0;
+    position: relative;
+}
+
+.song-icons span {
+    position:absolute; 
+    left:26px;
+}
+
+#song-icons-column-2 span {
+    position:absolute; 
+    left:50px;    
+}
+input {
+    cursor: pointer;
+    user-select: none;
+}
+/* bottom-container */
+.bottom-song {
+    position: sticky;
+    height: 62px;
+    background-color: black;
+    color: #f5e4e1;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#current-time {
+    position: absolute;
+    left: 300px;
+    bottom: 40px;
+}
+
+#duration {
+    position: absolute;
+    right: 300px;
+    bottom: 40px;
+}
+
+#progress-bar {
+    background-color: #1DB954
+}
+
+.song-info {
+    position: absolute;
+    left: 15px;
+    font-family: 'Alegreya', serif;
+}
+
+/* ---------*/
+
+#progress-bar {
+    width: 50vw;
+}
+
+.navigation-bar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navigation-bar a {
+    float: left;
+    color: #f5e4e1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.navigation-bar a:hover {
+    background-color: #1DB954;
+    color: black;
+}
+
+.navigation-bar img {
+    float: left;
+    padding: 0px;
+    width: 54px;
+    height: 54px;
+}
+
+.navigation-bar a.active {
+    background-color: #04AA6D;
+    color: antiquewhite;
+}
+
+.song-columns {
+    display: flex;
+}
+#column-2 {
+    color:rgb(203, 203, 32);
+    background-color:#191a18;
+    width: 50%;
+    margin-top: 10px;
+}
+/* fontawesome icons */
+
+.fa-solid {
+    color: #f6f6f6;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.fa-solid:hover {
+    color: #d6cdcd;
+}
+
+/* Overlay effects */
+
+#overlay {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: 	#1e1c1c;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+.overlay-content {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#overlay .closebtn {
+    position: absolute;
+    top: 56px;
+    right: 45px;
+    font-size: 60px;
+    color: rgb(219, 212, 212);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  #overlay .closebtn:hover {
+    color:rgb(232, 24, 24);
+  }
+.overlay-content span {
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(219, 212, 212);
+    display: block;
+    transition: 0.3s;
+    font-family: 'Alegreya', serif;
+}
+
+.email {
+    color:rgb(109, 183, 249);
+    cursor: pointer;
+}
+
+.email:hover {
+    color:rgb(60, 158, 243);
+}
